@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 <!-- Next Auth Learn V-Link - https://youtu.be/bMYZSi_LZ2w?si=DVZZE2yZncQS8A86 -->
+<!-- Resume Builder V-Link - https://www.youtube.com/watch?v=qRwmWn_7Ipw&t=588s -->

@@ -1,6 +1,12 @@
+import { auth } from "@/auth";
 import { GoogleSignIn } from "@/components";
+import { redirect } from "next/navigation";
 
-const page = () => {
+const page = async () => {
+  const session = await auth();
+  const user = session?.user
+  if (user) redirect("/");
+
   return (
     <>
       <div className="flex items-center justify-center min-h-screen">
